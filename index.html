@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/dictionary.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>English Dictionary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>English Dictionary</h1>
+      </header>
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass search"></i>
+        <input type="text" class="search-input" placeholder="Search a word" />
+        <i class="fa-solid fa-x search-delete hide" id="hide"></i>
+      </div>
+      <div class="init-container">
+        <p>Please type a word</p>
+      </div>
+      <div class="info-container" id="hide">
+        <i class="fa-solid fa-volume-high sound"></i>
+        <h2 class="word">serene</h2>
+        <p class="part-of-speech">adjective</p>
+        <p class="phonetic">phonetic</p>
+        <p class="meaning">calm, peaceful and untroubled; tranquil.</p>
+        <p class="example">her eyes were closed and she looked very serene</p>
+      </div>
+    </main>
+    <footer>
+      <p>Developed by: <span>Kent Buno</span></p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/e42be06ce9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
